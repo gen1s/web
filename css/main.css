@@ -44,3 +44,45 @@ h1{
     color: #2ccd70; 
     font-size: 450%;
 }
+
+
+:root {
+    --clr-neon: #2ccd70;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+  
+
+  
+  .neon-button {
+    font-size: 2rem;
+  
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none;
+    color: var(--clr-neon);
+    border: var(--clr-neon) 0.125em solid;
+    padding: 0.25em 1em;
+    border-radius: 0.25em;
+    text-align: center;
+
+  
+    text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.3), 0 0 0.45em currentColor;
+  
+    box-shadow: inset 0 0 0.2em 0 var(--clr-neon), 0 0 0.2em 0 var(--clr-neon);
+  
+    position:relative;
+  }
+  
+  .neon-button::before {
+    pointer-events: none;
+    content: "";
+    position: absolute;
+    background: var(--clr-neon);
+
+
+  }
