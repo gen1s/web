@@ -8,6 +8,7 @@
   margin-right: 5%;
 }
 
+
 .img-center{
     display: block; 
     margin-left: auto;
@@ -32,9 +33,53 @@
     border-radius: 0.60rem;
 }
 
+.lst-center{
+  display: grid;
+  place-items: center;
+  margin-left: -20%;
+  margin-top: 10%;
+  margin-bottom: 70%;
+}
+
+.social-menu ul{
+  position: absolute;
+  display: table;
+  padding: 0;
+  text-align: center;
+  list-style: inside;
+}
+
+.social-menu ul li{
+  list-style: none;
+}
+
+
+.social-menu ul li a{
+  position: relative;
+  display: block;
+
+  transition: .6s;
+}
+.social-menu ul li a:hover{
+  transform: translate(0, -10px);
+
+}
+
+.social-menu ul li a ion-icon{
+  color: #e9e9e9
+}
+
+
+ 
+
+
 @font-face {
     font-family: consolas;
     src: url(fonts\consolas\consolas.ttf);
+}
+
+ion-icon{
+  font-size: 128px;
 }
 
 h1, h2, h3, h4, h5, h6, p, span, a{
