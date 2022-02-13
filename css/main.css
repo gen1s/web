@@ -26,7 +26,7 @@
 }
 
 .margins{
-    margin: 5%;
+  margin: 5%;
 }
 
 .round{
@@ -69,7 +69,28 @@
   color: #e9e9e9
 }
 
+.logo{
+  cursor: pointer;
+}
 
+.nav_links{
+  list-style: none;
+}
+
+.nav_links li{
+  display: inline-block;
+  padding: 0 20px;
+}
+
+.nav_links li a{
+  color:#e9e9e9;
+  transition: all 0.3s ease 0s;
+  text-decoration: none;
+}
+
+.nav_links li a:hover{
+  color:#2ccd70;
+}
  
 
 
@@ -84,6 +105,17 @@ ion-icon{
 
 h1, h2, h3, h4, h5, h6, p, span, a{
     font-family: consolas;
+}
+
+p{
+  text-align: justify;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
 }
 
 body{
