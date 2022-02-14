@@ -99,6 +99,23 @@
     src: url(fonts\consolas\consolas.ttf);
 }
 
+@keyframes transitionIn {
+  from{
+    opacity: 0;
+    transform: rotateX(-10deg);
+  }
+
+  to{
+    opacity: 1;
+    transform: rotateX(0);
+  }
+}
+
+main {
+  animation: transitionIn 0.3s
+}
+
+
 ion-icon{
   font-size: 128px;
 }
