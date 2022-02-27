@@ -1,5 +1,8 @@
 <?php
+<<<<<<< HEAD:main/home.php
     //include_once "app/config.inc.php";
+=======
+>>>>>>> 1f35589d1042a564e8304d7cd320825e7a45e5bc:index.php
     $title = "Gen1s";
     include_once "templates/head.inc.php";
 ?>

@@ -56,8 +56,5 @@ if(count($path_parts) == 1){
 
 
 
-include_once $selected_path
-
-
-
+include_once $selected_path;
 ?>
