@@ -1,35 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php 
+$title = "About Me";
+include_once "templates/head.inc.php"?>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Me</title>
-    <!--<link href="bootstrap-5.1.3-dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    -->
-    <link rel="shortcut icon" type="image/x-icon" href="/img/sqr_logo.ico">
-    <link href="bootstrap-5.1.3-dist/css/bootstrap.css" rel="stylesheet">
-    <link href="css/main.css" rel = "stylesheet">
-
-    
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-    
 </head>
 <body>
-    <header>
-        <a href="/index.html"><img src="/img/logo.min.png" class="logo" alt="logo" style="height:39px; width: 93px;"></a>
-        <nav class="navbar">
-            
-            <ul class="nav_links">
-                <li><a href="/aboutme.html">About Me</a></li>
-                <li><a href="/projects.html">Projects</a></li>
-                <li><a href="#">Coments</a></li>
-            </ul>
-           
-        </nav>
-        <a href="#" class="btn btn-primary">contact</a>
-    </header>
+    <?php include_once "templates/navbar.inc.php"?>
     <main class = "container-fluid">
         <div class = "row">
             <div class = "col-12 col-md-6">
@@ -94,6 +71,4 @@
                 </div>
             </div>
         </div>
-    </main>
-</body>
-</html>
+<?php include_once "templates/end.inc.php"?>

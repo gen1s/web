@@ -1,30 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Projects</title>
-    <link rel="shortcut icon" type="image/x-icon" href="/img/sqr_logo.ico">
-    <link href="bootstrap-5.1.3-dist/css/bootstrap.css" rel="stylesheet">
-    <link href="css/main.css" rel = "stylesheet">
-    
-    
-</head>
+<?php 
+$title = "Comments";
+include_once "templates/head.inc.php"?>
 <body>
-    <header>
-        <a href="/index.html"><img src="/img/logo.min.png" class="logo" alt="logo" style="height:39px; width: 93px;"></a>
-        <nav class="navbar">
-            
-            <ul class="nav_links">
-                <li><a href="/aboutme.html">About Me</a></li>
-                <li><a href="/projects.html">Projects</a></li>
-                <li><a href="#">Coments</a></li>
-            </ul>
-           
-        </nav>
-        <a href="#" class="btn btn-primary">contact</a>
-    </header>
+    <?php include_once "templates/navbar.inc.php"?>
     <main class = "container-fluid">
         <div class="row">
             <div class="col-12">
@@ -37,51 +15,47 @@
         <div class="row">
             <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
                 <div class="card crd-center" style="width: 18rem;">
-                    <img src="img/projects/encdecimg.png" class="card-img-top" alt="...">
+                    <img src="<?php echo IMG_PATH?>projects/encdecimg.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">GUI Encrypt Decrypt</h5>
                             <p class="card-text" style = "color: #2b2b2b;">Python file to encrypt or decrypt your files.</p>
-                            <a href="/projects/GUI-encrypt-decrypt.html" class="btn btn-primary">Learn More</a>
+                            <a href="<?php echo ENCRYPT_DECRYPT?>" class="btn btn-primary">Learn More</a>
                         </div>
                 </div>
             </div>
             
             <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
                 <div class="card crd-center" style="width: 18rem;">
-                    <img src="img/projects/srct.png" class="card-img-top" alt="...">
+                    <img src="<?php echo IMG_PATH?>projects/srct.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Shortcut</h5>
                             <p class="card-text"style = "color: #2b2b2b;" >This file generates .bat files to run multiple programs at once.</p>
-                            <a href="/projects/shortcut.html" class="btn btn-primary">Learn More</a>
+                            <a href="<?php echo SHORTCUT?>" class="btn btn-primary">Learn More</a>
                         </div>
                 </div>
             </div>
             
             <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
                 <div class="card crd-center" style="width: 18rem;">
-                    <img src="img/projects/discordlogo.png" class="card-img-top" alt="...">
+                    <img src="<?php echo IMG_PATH?>projects/discordlogo.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Discord Bot</h5>
                             <p class="card-text"style = "color: #2b2b2b;">Discord bot that notifies you of your tasks.</p>
-                            <a href="/projects/discord-bot.html" class="btn btn-primary">Learn More</a>
+                            <a href="<?php echo DISCORD_BOT?>" class="btn btn-primary">Learn More</a>
                         </div>
                 </div>
             </div>
 
             <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
                 <div class="card crd-center" style="width: 18rem;">
-                    <img src="img/logo.png" class="card-img-top" alt="...">
+                    <img src="<?php echo IMG_PATH?>logo.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Website</h5>
                             <p class="card-text"style = "color: #2b2b2b;">This website font code.</p>
-                            <a href="/projects/website.html" class="btn btn-primary">Learn More</a>
+                            <a href="<?php echo WEBSITE?>" class="btn btn-primary">Learn More</a>
                         </div>
                 </div>
             </div>
             
         </div>
-
-    </main>
-    
-</body>
-</html>
+<?php include_once "templates/end.inc.php"?>

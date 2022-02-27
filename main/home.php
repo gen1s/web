@@ -1,30 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gen1s</title>
-    <link rel="shortcut icon" type="image/x-icon" href="/img/sqr_logo.ico">
-    <link href="bootstrap-5.1.3-dist/css/bootstrap.css" rel="stylesheet">
-    <link href="css/main.css" rel = "stylesheet">
-    
+<?php
+    //include_once "app/config.inc.php";
+    $title = "Gen1s";
+    include_once "templates/head.inc.php";
+?>
 
-</head>
 <body>
-    <header>
-        <a href="/index.html"><img src="/img/logo.min.png" class="logo" alt="logo" style="height:39px; width: 93px;"></a>
-        <nav class="navbar">
-            
-            <ul class="nav_links">
-                <li><a href="/aboutme.html">About Me</a></li>
-                <li><a href="/projects.html">Projects</a></li>
-                <li><a href="#">Coments</a></li>
-            </ul>
-           
-        </nav>
-        <a href="#" class="btn btn-primary">contact</a>
-    </header>
+    
+    <?php include_once "templates/navbar.inc.php";?>
         
     <main class = "container-fluid">
         <div class="row">
@@ -58,12 +40,10 @@
         </div>
         <div class="row">
             <div class="col12 col-lg-2 col-md-3 col-sm-4 border">
-                <a href = "aboutme.html" class="neon-button">About Me</a>
+                <a href = "<?php echo ABOUT_ME?>" class="neon-button">About Me</a>
             </div>
             <div class="col12 col-lg-2 col-md-3 col-sm-4 border">
-                <a href = "projects.html" class="neon-button">Projects</a>
+                <a href = "<?php echo PROJECTS?>" class="neon-button">Projects</a>
             </div>
         </div>
-    </main>
-</body>
-</html>
+<?php include_once "templates/end.inc.php"?>
