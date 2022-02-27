@@ -19,11 +19,7 @@ include_once "templates/head.inc.php"?>
                         <div class="card-body">
                             <h5 class="card-title">GUI Encrypt Decrypt</h5>
                             <p class="card-text" style = "color: #2b2b2b;">Python file to encrypt or decrypt your files.</p>
-<<<<<<< HEAD:main/projects.php
                             <a href="<?php echo ENCRYPT_DECRYPT?>" class="btn btn-primary">Learn More</a>
-=======
-                            <a href="/projects/GUI-encrypt-decrypt.php" class="btn btn-primary">Learn More</a>
->>>>>>> 1f35589d1042a564e8304d7cd320825e7a45e5bc:projects.php
                         </div>
                 </div>
             </div>
@@ -34,11 +30,7 @@ include_once "templates/head.inc.php"?>
                         <div class="card-body">
                             <h5 class="card-title">Shortcut</h5>
                             <p class="card-text"style = "color: #2b2b2b;" >This file generates .bat files to run multiple programs at once.</p>
-<<<<<<< HEAD:main/projects.php
                             <a href="<?php echo SHORTCUT?>" class="btn btn-primary">Learn More</a>
-=======
-                            <a href="/projects/shortcut.php" class="btn btn-primary">Learn More</a>
->>>>>>> 1f35589d1042a564e8304d7cd320825e7a45e5bc:projects.php
                         </div>
                 </div>
             </div>
@@ -49,11 +41,7 @@ include_once "templates/head.inc.php"?>
                         <div class="card-body">
                             <h5 class="card-title">Discord Bot</h5>
                             <p class="card-text"style = "color: #2b2b2b;">Discord bot that notifies you of your tasks.</p>
-<<<<<<< HEAD:main/projects.php
                             <a href="<?php echo DISCORD_BOT?>" class="btn btn-primary">Learn More</a>
-=======
-                            <a href="/projects/discord-bot.php" class="btn btn-primary">Learn More</a>
->>>>>>> 1f35589d1042a564e8304d7cd320825e7a45e5bc:projects.php
                         </div>
                 </div>
             </div>
@@ -64,11 +52,7 @@ include_once "templates/head.inc.php"?>
                         <div class="card-body">
                             <h5 class="card-title">Website</h5>
                             <p class="card-text"style = "color: #2b2b2b;">This website font code.</p>
-<<<<<<< HEAD:main/projects.php
                             <a href="<?php echo WEBSITE?>" class="btn btn-primary">Learn More</a>
-=======
-                            <a href="/projects/website.php" class="btn btn-primary">Learn More</a>
->>>>>>> 1f35589d1042a564e8304d7cd320825e7a45e5bc:projects.php
                         </div>
                 </div>
             </div>
