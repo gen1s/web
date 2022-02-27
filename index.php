@@ -52,9 +52,7 @@ if(count($path_parts) == 1){
             }
             break;
     }
-}//els projectes
-
-
+}
 
 include_once $selected_path;
 ?>
