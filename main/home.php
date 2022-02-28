@@ -1,4 +1,5 @@
 <?php
+    //include_once "app/config.inc.php";
     $title = "Gen1s";
     include_once "templates/head.inc.php";
 ?>

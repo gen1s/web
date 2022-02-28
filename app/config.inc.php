@@ -9,11 +9,13 @@ define("DISCORD_BOT", SERVER . "/projects/discord-bot");
 define("ENCRYPT_DECRYPT", SERVER . "/projects/GUI-encryt-decrypt");
 define("SHORTCUT", SERVER . "/projects/shortcut");
 define("WEBSITE", SERVER . "/projects/website");
-
+define("CONTACT", SERVER . "/contact-me");
+define("THANKS", SERVER . "/thanks");
 // Resources
 define("CSS_PATH", SERVER . "/css/"); 
 define("BOOTSTRAP", SERVER . "/bootstrap-5.1.3-dist/");
-define("IMG_PATH", SERVER . "/img/")
+define("IMG_PATH", SERVER . "/img/");
+define("TEMPLATES", SERVER . "/templates/");
 
 ?>
 

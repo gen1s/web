@@ -9,5 +9,5 @@
             </ul>
            
         </nav>
-        <a href="#" class="btn btn-primary">contact</a>
+        <a href="<?php echo CONTACT?>" class="btn btn-primary">contact</a>
     </header>

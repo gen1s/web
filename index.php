@@ -24,6 +24,14 @@ if(count($path_parts) == 1){
         case "coments":
             $selected_path = "main/coments.php";
             break;
+        
+        case "contact-me":
+            $selected_path = "main/contactform.php";
+            break;
+        
+        case "thanks":
+            $selected_path = "main/thanks.php";
+            break;
 
         case "home":
             $selected_path = "main/home.php";
@@ -54,5 +62,10 @@ if(count($path_parts) == 1){
     }
 }
 
-include_once $selected_path;
+
+
+include_once $selected_path
+
+
+
 ?>
