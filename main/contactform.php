@@ -23,7 +23,7 @@ include_once "templates/head.inc.php";
             </div>
 
         </div>  
-        <div class="col-12 col-md-6">
+        <div class="col-12 col-md-6" align="center">
             <div class="margins">
                 <?php if($messageSent):?>
                     <h1 style = "color: #2ccd70">Thank You For Your Feed Back</h1>
@@ -46,9 +46,9 @@ include_once "templates/head.inc.php";
                             <label for="message" class="form-label">Message</label>
                             <textarea class="form-control" rows="5" cols="50" id="message" name="message" placeholder="Enter Message..." tabindex="4"></textarea>
                         </div>
-                        <div>
-                            <button type="submit" class="btn btn-primary">Send</button>
-                        </div>
+
+                        <button type="submit" class="btn btn-primary">Send</button>
+
                     </form> 
                 </div>
                 

@@ -91,8 +91,21 @@
 .nav_links li a:hover{
   color:#2ccd70;
 }
- 
+.center{
+  margin: auto;
+}
+.comment {
+  border: 1px solid #2ccd70;
+  border-radius: 5px;
+  width: 400px;
+  
+  
 
+}
+ 
+.text-right{
+  text-align: right;
+}
 
 @font-face {
     font-family: consolas;
@@ -126,6 +139,10 @@ h1, h2, h3, h4, h5, h6, p, span, a{
 
 p{
   text-align: justify;
+}
+
+p.right{
+  text-align: right;
 }
 
 header{

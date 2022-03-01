@@ -6,7 +6,7 @@ define("ABOUT_ME", SERVER . "/about-me");
 define("PROJECTS", SERVER . "/projects");
 define("COMENTS", SERVER . "/coments");
 define("DISCORD_BOT", SERVER . "/projects/discord-bot");
-define("ENCRYPT_DECRYPT", SERVER . "/projects/GUI-encryt-decrypt");
+define("ENCRYPT_DECRYPT", SERVER . "/projects/encrypt-decrypt");
 define("SHORTCUT", SERVER . "/projects/shortcut");
 define("WEBSITE", SERVER . "/projects/website");
 define("CONTACT", SERVER . "/contact-me");

@@ -5,7 +5,7 @@
             <ul class="nav_links">
                 <li><a href="<?php echo ABOUT_ME?>">About Me</a></li>
                 <li><a href="<?php echo PROJECTS?>">Projects</a></li>
-                <li><a href="<?php echo COMENTS?>">Coments</a></li>
+                <li><a href="<?php echo COMENTS?>">Comments</a></li>
             </ul>
            
         </nav>
