@@ -18,19 +18,19 @@ function getComment($conn){
     
     $i = 5;
     while($row = $result->fetch_assoc()){
-        echo "
-        <div class='col-12 col-lg-6 col-xxl-4' align='center'>
-            <div class='margins'>
-                <div class='comment'>
-                    <div class='margins'>
-                        <h4 style='color:#2ccd70;'>" . $row['uid'] . "</h4>
-                        <p style='color:#e9e9e9'>" . $row['message'] . "</p>
-                        <p style='color:#e9e9e9' class='right'> ". $row['date'] . "</p>
+        echo '
+        <div class="col-12 col-lg-6 col-xxl-4" align="center">
+            <div class="margins">
+                <div class="comment">
+                    <div class="margins">
+                        <p style="color:#2ccd70; font-size:26px" class="left"><span style="color:#e9e9e9; font-size: 14px" class="left">Posted By </span>' . $row["uid"] . '</p>
+                        <p style="color:#e9e9e9">' . $row["message"] . '</p>
+                        <p style="color:#e9e9e9" class="right"> '. $row["date"] . '</p>
                     </div>
                 </div>
             </div>
         </div>
-        ";
+        ';
         $i = $i-1;
     }
 }

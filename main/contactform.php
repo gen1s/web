@@ -14,8 +14,11 @@ include_once "templates/head.inc.php";
             <div class="margins">
                 <h1 style = "color: #2ccd70; font-size: 450%;" class="tab">Contact Me</h1>
                 <p  style = "color: #e9e9e9;">
-                 I leave you this form here. If you want to contact me, just fill the folowing inputs
-                 with the required information. Click on the "Send" button once you are done.
+                 I leave you this 
+                 <span style = "color: #2ccd70;" >form</span> here. If you want to 
+                 <span style = "color: #2ccd70;" >contact me</span>, just fill the folowing inputs
+                 with the required information. Click on the 
+                 "<span style = "color: #2ccd70;" >Send</span>" button once you are done.
                  <br>
                  <br>
                  I will try to read you as fast as posible.

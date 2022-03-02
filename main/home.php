@@ -38,12 +38,28 @@
                 </div>
             </div>
         </div>
+        <br>
+        <br>
+        <br>
+        <br>
         <div class="row">
-            <div class="col12 col-lg-2 col-md-3 col-sm-4 border">
-                <a href = "<?php echo ABOUT_ME?>" class="neon-button">About Me</a>
+            <div class="col-12 col-md-4" align="center">
+                <div class="margins">
+                    <a href = "<?php echo ABOUT_ME?>" class="neon-button">About Me</a>
+
+                </div>
             </div>
-            <div class="col12 col-lg-2 col-md-3 col-sm-4 border">
-                <a href = "<?php echo PROJECTS?>" class="neon-button">Projects</a>
+            <div class="col-12 col-md-4" align="center">
+                <div class="margins">
+                    <a href = "<?php echo PROJECTS?>" class="neon-button">Projects</a>
+
+                </div>
+            </div>
+            <div class="col-12 col-md-4" align=center>
+                <div class="margins">
+                    <a href = "<?php echo COMENTS?>" class="neon-button">Comments</a>
+
+                </div>
             </div>
         </div>
 <?php include_once "templates/end.inc.php"?>
