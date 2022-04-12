@@ -1,5 +1,5 @@
 <?php 
-$title = "Comments";
+$title = "Gen1s | My Projects";
 include_once "templates/head.inc.php"?>
 <body>
     <?php include_once "templates/navbar.inc.php"?>
@@ -13,6 +13,17 @@ include_once "templates/head.inc.php"?>
             </div>
         
         <div class="row">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
+                <div class="card crd-center" style="width: 18rem;">
+                    <img src="<?php echo IMG_PATH?>projects/youtubelogo.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Automated Youtube Channel</h5>
+                            <p class="card-text" style = "color: #2b2b2b;">Python file automate an entire youtube channel.</p>
+                            <a href="<?php echo AUTOMATED_YOUTUBE?>" class="btn btn-primary">Learn More</a>
+                        </div>
+                </div>
+            </div>
+            
             <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
                 <div class="card crd-center" style="width: 18rem;">
                     <img src="<?php echo IMG_PATH?>projects/encdecimg.png" class="card-img-top" alt="...">
@@ -56,6 +67,8 @@ include_once "templates/head.inc.php"?>
                         </div>
                 </div>
             </div>
+
+            
             
         </div>
 <?php include_once "templates/end.inc.php"?>

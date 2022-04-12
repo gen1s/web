@@ -1,6 +1,6 @@
 <?php
 include_once "app/contact.inc.php";
-$title = "Contact Me";
+$title = "Gen1s | Contact Me";
 include_once "templates/head.inc.php";
 ?>
 
@@ -32,7 +32,7 @@ include_once "templates/head.inc.php";
                     <h1 style = "color: #2ccd70">Thank You For Your Feed Back</h1>
                 <?php else: ?>
                 <div class="container-form">
-                   <form action="contact-me" method="POST" class="form">
+                   <form action="https://formsubmit.co/566661d79790c8a672e64a21a6d933a5 " method="POST" class="form">
                         <div class="form-group">
                             <label for="name" class="form-label">Your Name</label>
                             <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" tabindex="1" required>
@@ -49,6 +49,9 @@ include_once "templates/head.inc.php";
                             <label for="message" class="form-label">Message</label>
                             <textarea class="form-control" rows="5" cols="50" id="message" name="message" placeholder="Enter Message..." tabindex="4"></textarea>
                         </div>
+
+                        <input type="hidden" name="_next" value="<?php echo THANKS?>">
+                        <input type="hidden" name="_captcha" value="false">
 
                         <button type="submit" class="btn btn-primary">Send</button>
 

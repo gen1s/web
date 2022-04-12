@@ -1,5 +1,5 @@
 <?php 
-$title = "Encrypt - Decript";
+$title = "Gen1s | Projects | Encrypt - Decript";
 include_once "./templates/head.inc.php"?>
 <body>
     <?php include_once "./templates/navbar.inc.php"?>

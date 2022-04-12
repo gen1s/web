@@ -1,6 +1,6 @@
 <?php 
 date_default_timezone_set("Europe/Madrid");
-$title = "Comments";
+$title = "Gen1s | Comments";
 include_once "app/dbh.inc.php";
 include_once "app/comments.inc.php";
 include_once "templates/head.inc.php"?>

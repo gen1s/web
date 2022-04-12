@@ -1,5 +1,5 @@
 <?php 
-$title = "This Website";
+$title = "Gen1s | Projects | This Website";
 include_once "./templates/head.inc.php"?>
 <body>
     <?php include_once "./templates/navbar.inc.php"?>

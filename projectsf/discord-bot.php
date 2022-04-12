@@ -1,5 +1,5 @@
 <?php 
-$title = "Discord Bot";
+$title = "Gen1s | Projects | Discord Bot";
 include_once "./templates/head.inc.php"?>
 <body>
     <?php include_once "./templates/navbar.inc.php"?>

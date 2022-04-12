@@ -1,5 +1,5 @@
 <?php 
-$title = "Shortcut";
+$title = "Gen1s | Projects | Shortcut";
 include_once "./templates/head.inc.php"?>
 <body>
     <?php include_once "./templates/navbar.inc.php"?> 

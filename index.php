@@ -10,8 +10,10 @@ $path_parts = array_slice($path_parts, 0);
 
 $selected_path = "main/404.php";
 
+if(count($path_parts) == 0){
+    $selected_path = "main/home.php";
     
-if(count($path_parts) == 1){
+}else if(count($path_parts) == 1){
     switch($path_parts[0]){
         case "about-me":
             $selected_path = "main/aboutme.php";
@@ -21,7 +23,7 @@ if(count($path_parts) == 1){
             $selected_path = "main/projects.php";
             break;
 
-        case "coments":
+        case "comments":
             $selected_path = "main/coments.php";
             break;
         
@@ -56,6 +58,10 @@ if(count($path_parts) == 1){
                 
                 case "website":
                     $selected_path = "projectsf/website.php";
+                    break;
+                
+                case "automated-youtube":
+                    $selected_path = "projectsf/automated-youtube.php";
                     break;
             }
             break;
