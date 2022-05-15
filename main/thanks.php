@@ -1,5 +1,7 @@
 <?php 
-$title = "Gen1s | Thank You";
+$title = "Gen1s | Thank You For Contacting Me";
+$keyword = "";
+$description = "Thank you for contacting me I realy apreciate that.";
 include_once "templates/head.inc.php"?>
 <body>
     <?php include_once "templates/navbar.inc.php"?>

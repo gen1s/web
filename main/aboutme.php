@@ -1,5 +1,7 @@
 <?php 
-$title = "Gen1s | About Me";
+$title = "Gen1s | About Me | My Life And My Skills";
+$keyword = "about me";
+$description = "This is a short resume of my life. Here I tell what I have done and what I know. This is what youneed to know me better.";
 include_once "templates/head.inc.php"?>
 <head>
 <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>

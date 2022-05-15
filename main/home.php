@@ -1,6 +1,9 @@
 <?php
     //include_once "app/config.inc.php";
-    $title = "Gen1s";
+    $title = "Gen1s | 15 Years Old Self Taught Programmer";
+    $keyword = "main, home";
+    $description = "This my own website main page. On this website I post information about me and all the projects I develop. 
+    On this main page is just to introducing the user into the website. Gen1s gen1s";
     include_once "templates/head.inc.php";
 ?>
 

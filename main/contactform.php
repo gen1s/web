@@ -1,6 +1,8 @@
 <?php
 include_once "app/contact.inc.php";
-$title = "Gen1s | Contact Me";
+$title = "Gen1s | Contact Me | Thanks For Contacting Me";
+$keyword = "Contact, contact form, contact me";
+$description = "Fill this simple contact form to contact me. I will make sure to read you as fast as I can and reply to you if it's necesary.";
 include_once "templates/head.inc.php";
 ?>
 

@@ -1,5 +1,7 @@
 <?php 
 $title = "Gen1s | Projects | Encrypt - Decript";
+$keyword = "projects, encrypt, decrypt, encrypt-decrypt";
+$description = "This is my project about encrypting and decrypting files. Here you have some information and the link to the github repository.";
 include_once "./templates/head.inc.php"?>
 <body>
     <?php include_once "./templates/navbar.inc.php"?>
@@ -13,7 +15,7 @@ include_once "./templates/head.inc.php"?>
 
         <div class="row">
             <div class="col-12 col-md-6">
-                <img src = "/img/projects/encdecimg.png" width ="50%" class="img-center">
+                <img src = "/img/projects/encdecimg.png" width ="50%" class="img-center" alt="encrypt-decrypt">
             </div>
             
             <div class="col-12 col-md-6">

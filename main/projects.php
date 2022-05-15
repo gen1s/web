@@ -1,6 +1,8 @@
 <?php 
-$title = "Gen1s | My Projects";
-include_once "templates/head.inc.php"?>
+$title = "Gen1s | My Projects | All The Projects I Have Published";
+$keyword = "projects, my projects";
+$description = "This is a were I share all my projects. You can learn more about every single project and you can check it on github and dowlad it.";
+include_once "templates/head.inc.php"?> 
 <body>
     <?php include_once "templates/navbar.inc.php"?>
     <main class = "container-fluid">
@@ -15,7 +17,7 @@ include_once "templates/head.inc.php"?>
         <div class="row">
             <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
                 <div class="card crd-center" style="width: 18rem;">
-                    <img src="<?php echo IMG_PATH?>projects/youtubelogo.png" class="card-img-top" alt="...">
+                    <img src="<?php echo IMG_PATH?>projects/youtubelogo.png" class="card-img-top" alt="youtube">
                         <div class="card-body">
                             <h5 class="card-title">Automated Youtube Channel</h5>
                             <p class="card-text" style = "color: #2b2b2b;">Python file automate an entire youtube channel.</p>
@@ -26,7 +28,7 @@ include_once "templates/head.inc.php"?>
             
             <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
                 <div class="card crd-center" style="width: 18rem;">
-                    <img src="<?php echo IMG_PATH?>projects/encdecimg.png" class="card-img-top" alt="...">
+                    <img src="<?php echo IMG_PATH?>projects/encdecimg.png" class="card-img-top" alt="encrypt-decrypt">
                         <div class="card-body">
                             <h5 class="card-title">GUI Encrypt Decrypt</h5>
                             <p class="card-text" style = "color: #2b2b2b;">Python file to encrypt or decrypt your files.</p>
@@ -37,7 +39,7 @@ include_once "templates/head.inc.php"?>
             
             <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
                 <div class="card crd-center" style="width: 18rem;">
-                    <img src="<?php echo IMG_PATH?>projects/srct.png" class="card-img-top" alt="...">
+                    <img src="<?php echo IMG_PATH?>projects/srct.png" class="card-img-top" alt="shortcut">
                         <div class="card-body">
                             <h5 class="card-title">Shortcut</h5>
                             <p class="card-text"style = "color: #2b2b2b;" >This file generates .bat files to run multiple programs at once.</p>
@@ -48,7 +50,7 @@ include_once "templates/head.inc.php"?>
             
             <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
                 <div class="card crd-center" style="width: 18rem;">
-                    <img src="<?php echo IMG_PATH?>projects/discordlogo.png" class="card-img-top" alt="...">
+                    <img src="<?php echo IMG_PATH?>projects/discordlogo.png" class="card-img-top" alt="discord">
                         <div class="card-body">
                             <h5 class="card-title">Discord Bot</h5>
                             <p class="card-text"style = "color: #2b2b2b;">Discord bot that notifies you of your tasks.</p>
@@ -59,7 +61,7 @@ include_once "templates/head.inc.php"?>
 
             <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
                 <div class="card crd-center" style="width: 18rem;">
-                    <img src="<?php echo IMG_PATH?>logo.png" class="card-img-top" alt="...">
+                    <img src="<?php echo IMG_PATH?>logo.png" class="card-img-top" alt="gen1s">
                         <div class="card-body">
                             <h5 class="card-title">Website</h5>
                             <p class="card-text"style = "color: #2b2b2b;">This website font code.</p>

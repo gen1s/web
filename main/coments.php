@@ -1,6 +1,8 @@
 <?php 
 date_default_timezone_set("Europe/Madrid");
-$title = "Gen1s | Comments";
+$title = "Gen1s | Comment Section | Feel Free to Comment !!!";
+$keyword = "comments, comment section";
+$description = "This is the comment section of the website. Anyone can comment on this comment section and everyone can see the comment.";
 include_once "app/dbh.inc.php";
 include_once "app/comments.inc.php";
 include_once "templates/head.inc.php"?>

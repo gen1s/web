@@ -1,5 +1,7 @@
 <?php 
 $title = "Gen1s | Projects | This Website";
+$keyword = "projects, website";
+$description = "This is my project about this same website that you are seeing right now. Here you have some information and the link to the github repository.";
 include_once "./templates/head.inc.php"?>
 <body>
     <?php include_once "./templates/navbar.inc.php"?>
@@ -13,7 +15,7 @@ include_once "./templates/head.inc.php"?>
 
         <div class="row">
             <div class="col-12 col-md-6">
-                <img src = "/img/logo.min.png" width ="50%" class="img-center">
+                <img src = "/img/logo.min.png" width ="50%" class="img-center" alt = "gen1s">
             </div>
             
             <div class="col-12 col-md-6">

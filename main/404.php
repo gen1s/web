@@ -4,6 +4,8 @@ header($_SERVER['SERVER_PROTOCOL'] . "404 Not Found", true, 404);
 
 
 $title = "Gen1s | 404 Page Not Found";
+$keyword = "";
+$description = "Error 404 page not found";
 include_once "templates/head.inc.php"?>
 <body>
     <?php include_once "templates/navbar.inc.php"?>

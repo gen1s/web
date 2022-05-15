@@ -1,5 +1,7 @@
 <?php 
 $title = "Gen1s | Projects | Automated Youtube";
+$keyword = "projects, youtube, automated, automated youtube, youtube project";
+$description = "This is my project about automating a youtube channel. Here you have some information and the link to the github repository.";
 include_once "templates/head.inc.php"?>
 <body>
     <?php include_once "templates/navbar.inc.php"?>
@@ -14,7 +16,7 @@ include_once "templates/head.inc.php"?>
 
         <div class="row">
             <div class="col-12 col-md-6 ">
-                <img src = "<?php echo IMG_PATH?>projects/youtubelogo.png" width ="50%" class="img-center">
+                <img src = "<?php echo IMG_PATH?>projects/youtubelogo.png" width ="50%" class="img-center" alt="youtube">
             </div>
             
             <div class="col-12 col-md-6 ">

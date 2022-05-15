@@ -1,5 +1,5 @@
 <header>
-        <a href="<?php echo HOME?>"><img src="<?php echo IMG_PATH?>logo.min.png" class="logo" alt="logo" style="height:39px; width: 93px;"></a>
+        <a href="<?php echo HOME?>"><img src="<?php echo IMG_PATH?>logo.min.png" class="logo" alt="gen1s" style="height:39px; width: 93px;"></a>
         <nav class="navbar">
             
             <ul class="nav_links">

@@ -1,5 +1,7 @@
 <?php 
 $title = "Gen1s | Projects | Discord Bot";
+$keyword = "projects, discord, bot, discord-bot";
+$description = "This is my project about my discord bot that notifies your tasks. Here you have some information and the link to the github repository.";
 include_once "./templates/head.inc.php"?>
 <body>
     <?php include_once "./templates/navbar.inc.php"?>
@@ -13,7 +15,7 @@ include_once "./templates/head.inc.php"?>
 
         <div class="row">
             <div class="col-12 col-md-6 ">
-                <img src = "/img/projects/discordlogo.png" width ="50%" class="img-center">
+                <img src = "/img/projects/discordlogo.png" width ="50%" class="img-center" alt = "discord">
             </div>
             
             <div class="col-12 col-md-6 ">
