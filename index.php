@@ -63,6 +63,9 @@ if(count($path_parts) == 0){
                 case "automated-youtube":
                     $selected_path = "projectsf/automated-youtube.php";
                     break;
+                case "tiktok-generator":
+                    $selected_path = "projectsf/tiktok-generator.php";
+                    break;
             }
             break;
     }

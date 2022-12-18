@@ -12,6 +12,7 @@ define("ENCRYPT_DECRYPT", SERVER . "/projects/encrypt-decrypt");
 define("SHORTCUT", SERVER . "/projects/shortcut");
 define("WEBSITE", SERVER . "/projects/website");
 define("AUTOMATED_YOUTUBE", SERVER . "/projects/automated-youtube");
+define("TIKTOK_GENERATOR", SERVER . "/projects/tiktok-generator");
 // Resources
 define("CSS_PATH", SERVER . "/css/"); 
 define("BOOTSTRAP", SERVER . "/bootstrap-5.1.3-dist/");
